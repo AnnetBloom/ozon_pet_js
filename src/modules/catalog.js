@@ -1,5 +1,5 @@
 import getData from "./getData"
-import renderGoods from "../renderGoods"
+import renderGoods from "./renderGoods"
 import { categoryFilter } from "./filters"
 
 const catalog = () => {
