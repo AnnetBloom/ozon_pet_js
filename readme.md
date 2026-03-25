@@ -1,4 +1,5 @@
 # Подключение JavaScript, модальное окно, webpack. 
+
 Разберем, какие есть варианты подключения JavaScript со страницы. Получим необходимые элементы со страницы. Научимся перехватывать браузерные события. Напишем скрипт Модального окна.
 
 - https://learn.javascript.ru/variables
@@ -7,3 +8,22 @@
 - https://learn.javascript.ru/ifelse
 - https://developer.mozilla.org/ru/docs/Web/Events
 - https://learn.javascript.ru/searching-elements-dom
+
+# Получение данных из файлов БД
+
+Познакомимся с получением данных через API Fetch. Научимся работать с локальным сервером JSON-Server. Рассмотрим работу с Облачной Базой Данных Firebase (хранение и получение данных .json). Используем как аналог локального сервера. Получим первые данные с сервера. Познакомимся с API Storage.
+
+- https://jsonplaceholder.typicode.com/
+- https://github.com/typicode/json-server
+- https://console.firebase.google.com/u/1/
+
+
+# Отрисовка полученных данных на странице
+
+Фильтрация данных по категории. Сортировка данных по параметрам. Вывод карточек товаров. Реализация поиска по названию.
+
+УСЛОЖНЁННОЕ ЗАДАНИЕ
+
+    Реализовать фильтрацию товаров по цене
+    
+npx json-server db/db.json
